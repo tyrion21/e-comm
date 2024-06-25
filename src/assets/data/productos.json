@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "1",
+    "nombre": "Guantes",
+    "descripcion": "Guantes de boxeo",
+    "categoria": ["Deportes", "Boxeo"],
+    "imageUrl":[
+        "../../assets/img/productos/guantes/guantes-1.jpg",
+        "../../assets/img/productos/guantes/guantes-2.jpg",
+        "../../assets/img/productos/guantes/guantes-3.jpg",
+        "../../assets/img/productos/guantes/guantes-4.jpg"
+    ],
+    "precio_venta": 55000,
+    "precio_regular": 65000,
+    "created_at": "2024-07-01",
+    "slug": "tipo-guantes"
+  },
+  {
+    "_id": "2",
+    "nombre": "Sacos",
+    "descripcion": "Sacos de boxeo",
+    "categoria": ["Deportes", "Boxeo"],
+    "imageUrl":[
+        "../../assets/img/productos/sacos/sacos-1.jpg",
+        "../../assets/img/productos/sacos/sacos-2.jpg",
+        "../../assets/img/productos/sacos/sacos-3.jpg",
+        "../../assets/img/productos/sacos/sacos-4.jpg"
+    ],
+    "precio_venta": 85000,
+    "precio_regular": 105000,
+    "created_at": "2024-04-14",
+    "slug": "tipo-sacos"
+  },
+  {
+    "_id": "3",
+    "nombre": "Ropa",
+    "descripcion": "Ropa de boxeo",
+    "categoria": ["Deportes", "Boxeo"],
+    "imageUrl":[
+        "../../assets/img/productos/ropa/ropa-1.jpg",
+        "../../assets/img/productos/ropa/ropa-2.jpg",
+        "../../assets/img/productos/ropa/ropa-3.jpg",
+        "../../assets/img/productos/ropa/ropa-4.jpg"
+    ],
+    "precio_venta": 24000,
+    "precio_regular": 35000,
+    "created_at": "2024-02-22",
+    "slug": "tipo-ropa"
+  }
+]
+
+

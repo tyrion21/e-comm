@@ -1,0 +1,10 @@
+<div class="lg:w-4/4 md:w-4/ p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" 
+          [src]="producto ? producto.imageUrl[0] : ''" [alt]="producto?.nombre"
+          [routerLink]="['producto', producto?.slug]">
+        </a>
+          <div class="mt-4">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">{{ producto?.nombre}}</h2>
+            <p class="mt-1"> ${{producto?.precio_venta || 0}}</p> <del>${{ (producto?.precio_regular || 0) }}</del>
+          </div>
